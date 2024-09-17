@@ -19,7 +19,7 @@ const AddTask = ({ onAdd }) => {
         onChange={(e) => setTask(e.target.value)}
         placeholder="Введіть нове завдання"
       />
-      <button type="submit">Додати</button>
+      <button class="gradient-button" type="submit">Додати</button>
     </form>
   );
 };
